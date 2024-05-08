@@ -29,7 +29,7 @@ The CNN consists of two branches and a shared feature extraction component, comp
 The Differencing layer serves to identify similarities between inputs and amplify distinctions among dissimilar pairs, accomplished using the Euclidean Distance function:
 Distance(x₁, x₂) = ∥f(x₁) – f(x₂)∥₂
 
-Two types of loss is used
+Two types of loss is used :
 1.The mathematical equation for Mean Absolute Error (MAE) or L1 Loss is:
 MAE = (1/n) * Σ|yᵢ - ȳ|
 2.The mathematical equation for Binary Cross-Entropy Loss, also known as Log Loss, is:
