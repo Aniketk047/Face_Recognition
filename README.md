@@ -4,7 +4,7 @@
 A Face Recognition Siamese Network implemented using Keras. Siamese Network is used for one shot learning which do not require extensive training samples for image recognition.
 
 
-## Introduction
+## <h2>Introduction</h2>
 
 The process of learning good features for machine learning applications can be very computationally expensive and may prove difficult in
 cases where little data is available. A prototypical example of this is the one-shot learning setting, in which we must correctly make predictions given only a single example of each new
