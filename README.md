@@ -21,7 +21,7 @@ LFW(Labeled Faces in the Wild) Datasets has been used for training the model
 https://vis-www.cs.umass.edu/lfw/
 ## ARCHITECTURE
 ![Alt text](model.png)
-![Alt text]("C:\Users\ANIKET\OneDrive\Desktop\model2.png")
+![Alt text]("model2.png")
 The Siamese network design comprises two identical subnetworks, each processing one of the inputs. Initially, the inputs undergo processing through a convolutional neural network (CNN), which extracts significant features from the provided images. These subnetworks then generate encoded outputs, often through a fully connected layer, resulting in a condensed representation of the input data.
 
 The CNN consists of two branches and a shared feature extraction component, composed of layers for convolution, batch normalization, and ReLU activation, followed by max pooling and dropout layers. The final segment involves the FC layer, which maps the extracted features to the ultimate classification outcomes. A function delineates a linear layer followed by a sequence of ReLU activations and a series of consecutive operations (convolution, batch normalization, ReLU activation, max pooling, and dropout). The forward function guides the inputs through both branches of the network.
